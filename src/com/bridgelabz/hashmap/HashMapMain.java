@@ -6,7 +6,7 @@ public class HashMapMain {
 	  
     String sentence = "To be or not to be" ;
     HashMap<String, Integer> HashMap = new HashMap<>();
-    String[] words = sentence.toLowerCase().split( "");{
+    String[] words = sentence.toLowerCase().split( "   ");{
     for (String word : words) {
     	Integer value = HashMap.get(word);
     	if(value == null) {
